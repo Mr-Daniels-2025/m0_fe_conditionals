@@ -1,3 +1,5 @@
+
+
 // This exercise file is a little different from the others you have seen so far. Read carefully!
 // Below is a dynamic story that is created based on the value of three variables: doorChoice, bearClothing, bearChoice.
 // Spend some time changing the variables and running the file to see how the story changes.
