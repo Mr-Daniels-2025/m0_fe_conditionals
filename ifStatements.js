@@ -30,8 +30,7 @@ if (weather === "sunny") {
 // Experiment with manipulating the value held in variable 'weather'
 // to print something other than 'coat'
 
-
-##################
+//##################
 // Using the numQuarters variable defined below, determine
 // if you have enough money to buy a gumball. A gumball costs
 // two quarters.
@@ -64,5 +63,17 @@ console.log("I don't have enough money for a gumball");
 // Experiment with manipulating the value held within both variables
 // to make sure all above conditions output what you expect.
 
-var cupsOfFlour = 1;
+var cupsOfFlour = 7;
 var hasSauce = true;
+
+if(cupsOfFlour === 1 && hasSauce === true){
+  console.log("I cannot nuke pizza");
+}else if (cupsOfFlour === 5 && hasSauce === false) {
+  console.log("I cannot make pizza");
+}else if (cupsOfFlour === 2 && hasSauce === true) {
+  console.log("I can make pizza");
+}else if (cupsOfFlour === 3 && hasSauce === true) {
+  console.log("I can make pizza");
+}else{
+  console.log("Please try again");
+}
